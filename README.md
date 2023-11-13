@@ -15,3 +15,11 @@
 ![square class](./assets/Screen%20Shot%202023-11-13%20at%2010.16.23%20PM.png)
 
 ![square tests](./assets/Screen%20Shot%202023-11-13%20at%2010.21.06%20PM.png)
+
+پس از نوشتن تست‌ها، بدنه کلاس‌هاس خود را تکمیل می‌کنیم، به صورتی که با تست‌ها همخوانی داشته باشند.
+
+روند را تا زمانی که تمامی تست‌ها پاس شوند انجام می‌دهیم.
+
+![rectangle test pass](./assets/Screen%20Shot%202023-11-13%20at%2011.58.37%20PM.png)
+
+![square test pass](./assets/Screen%20Shot%202023-11-13%20at%2011.58.46%20PM.png)
