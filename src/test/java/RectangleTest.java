@@ -11,7 +11,7 @@ public class RectangleTest {
         int width = 4;
         int height = 5;
         int expectedArea = width * height;
-        Rectangle rectangle = new Rectangle(width, height);
+        Rectangle rectangle = new Rectangle(height, width);
 
         // Act
         int area = rectangle.computeArea();
@@ -26,7 +26,7 @@ public class RectangleTest {
         // Arrange
         int width = 4;
         int height = 5;
-        Rectangle rectangle = new Rectangle(width, height);
+        Rectangle rectangle = new Rectangle(height, width);
 
         // Act
         int rectangleWidth = rectangle.getWidth();

@@ -7,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 public class SquareTest {
 
     @Test
-    void testCalculatesAreaCorrectly() {
+    public void testCalculatesAreaCorrectly() {
         // arrange
         int side = 4;
         int expectedArea = side * side;
@@ -24,7 +24,7 @@ public class SquareTest {
     public void testCanGetWithAndHeight() {
         // Arrange
         int side =4;
-        Square square = new Square(width);
+        Square square = new Square(side);
 
         // Act
         int squareSide = square.getSide();
