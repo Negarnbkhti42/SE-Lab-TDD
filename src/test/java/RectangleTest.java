@@ -10,11 +10,11 @@ public class RectangleTest {
         // Arrange
         int width = 4;
         int height = 5;
-        int expectedArea = 20;
+        int expectedArea = width * height;
         Rectangle rectangle = new Rectangle(width, height);
 
         // Act
-        int area = rectangle.getArea();
+        int area = rectangle.computeArea();
 
         // Assert
         assertEquals(expectedArea, area);
